@@ -39,9 +39,6 @@ a {
   text-decoration: none;
   }
 
-button {
-    padding: 8px 16px;
-    }
 
 img {
     max-width: 500px;
@@ -71,7 +68,7 @@ ul.header-logo a:link{
     font-weight: 600;
 }
 
-button {
+.hero-sign-up {
     background-color: #3882f6;
     font-family: Roboto, sans-serif;
     border: none;
@@ -129,6 +126,7 @@ button {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-left: 200px;
     
 }
 
@@ -145,3 +143,54 @@ button {
     font-size: 18px;
     font-weight: 800; 
 }
+
+.container4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #f9faf8;
+    font-weight: 800;
+    padding: 8px 32px;
+
+}
+
+.c2action {
+    display: flex;
+    background-color: #3882f6;
+    flex-direction: row;
+    border-radius: 8px;
+    margin: 100px 100px 100px 100px;
+    padding: 40px 75px 50px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.c2action-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.c2action-text {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.c2action-btn {
+    background-color: #3882f6;
+    font-family: Roboto, sans-serif;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: 800;
+    border: 2px solid white;
+    padding: 4px 32px;
+    white-space: nowrap;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    background-color: #1f2937;
+    color: #f9faf8;
+  }
